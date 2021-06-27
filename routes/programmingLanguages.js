@@ -40,6 +40,6 @@ router.delete('/:id', async function(req, res, next) {
     console.error(`Error while deleting programming language`, err.message);
     next(err);
   }
-})
+});
 
 module.exports = router;
